@@ -1,0 +1,19 @@
+<h3 class="text-center ">Angular QRcode & Barcode Generator</h3>
+
+
+<div class="container">
+  <ngx-qrcode [elementType]="elementType" [value]="qrvalue" *ngIf="qrvalue" Class="bshadow"
+    [errorCorrectionLevel]="correctionLevel ">
+  </ngx-qrcode>
+  <div class="QR-code">
+    <label>enter text for QR code</label>
+
+  </div>
+  <textarea [(ngModel)]="qrvalue"></textarea>
+  <ngx-barcode Class="bshadow" [bc-value]="barcodeValue" *ngIf="barcodeValue" [bc-display-value]="false"></ngx-barcode>
+  <div class="bar-code">
+    <label>enter text for Barcode</label>
+
+  </div>
+  <textarea [(ngModel)]="barcodeValue"></textarea>
+</div>
