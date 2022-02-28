@@ -1,0 +1,48 @@
+.bshadow {
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px #222222);
+    opacity: .5; */
+}
+
+textarea {
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 8px 0px 0px 9px;
+  margin-bottom: 11px;
+  opacity: 0.7
+}
+.bar-code{
+  display: flex;
+    justify-content: center;
+}
+.QR-code{
+  display: flex;
+    justify-content: center;
+}
+label{
+  margin-top: 16px;
+  font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+
+}
+h3{
+  background: lightgray;
+    height: 55px;
+    padding-top: 15px;
+    margin-top: auto;
+    font-family: monospace;
+    font-weight: 600;
+}
+.container{
+  border: 11px solid black;
+    background: lightblue;
+}
