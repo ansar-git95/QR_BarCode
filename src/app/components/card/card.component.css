@@ -1,0 +1,41 @@
+/* .card{
+    width: 29%;
+    margin: auto;
+    background: #f4bb53bf;
+    box-shadow: rgb(0 0 0 / 40%) 1px 10px 31px;
+    border-radius: 4px;
+} */
+.marker{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-right: 14px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 14px;
+    align-items: baseline;
+}
+.globe{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 14px;
+    align-items: baseline;
+}
+.container{
+    /* height: 17rem; */
+    background-color: aliceblue;
+}
+.card-body-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+

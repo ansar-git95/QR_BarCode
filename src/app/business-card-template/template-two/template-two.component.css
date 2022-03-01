@@ -1,0 +1,31 @@
+/* 
+.card-two{
+    width: 29%;
+    margin: auto;
+   
+    box-shadow: rgb(0 0 0 / 40%) 1px 10px 31px;
+}
+.card-body-two{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background: #0000009c;
+    border-radius:    4px;
+    color:  #f4bb53bf;
+    height: 191px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.container-two{
+    background: aliceblue;
+    height: 17rem;
+}
+.card-title{
+    margin: 4px;
+    font-weight: 600;
+} */
