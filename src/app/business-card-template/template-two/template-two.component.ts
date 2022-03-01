@@ -37,4 +37,6 @@ export class TemplateTwoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  create(){}
+  
 }
