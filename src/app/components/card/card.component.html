@@ -1,10 +1,9 @@
 <div class="container ">
     <!-- [style.color]="cardStyleProp.color"
      [style.background-color]="cardStyleProp.backgroundColor" -->
-     <!-- *ngFor="let item of userList" -->
-     <!-- 'background-color':cardStyleObj.backgroundColor,  -->
-    <div class="card mt-5 mb-5" 
-        [ngStyle]="{
+    <!-- *ngFor="let item of userList" -->
+    <!-- 'background-color':cardStyleObj.backgroundColor,  -->
+    <div class="card mt-5 mb-5" [ngStyle]="{
             'background': cardStyleObj.background,
             'color': cardStyleObj.color,
             'width':cardStyleObj.width,
@@ -13,29 +12,44 @@
             'box-shadow':cardStyleObj.boxShadow,
             'font-family':cardStyleObj.fontFamily,
              'margin':cardStyleObj.Margin}">
-        <div class="card-body">
+        <div class="card-body row text-center">
             <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-            <h5 class="card-title">Ansar Ameer</h5>
+            <div>
+                <h2 class="col"><span class="comstyle-one">COMPANY</span> NAME</h2>
+                <h6 class="h6-class">GRAPHIC DESIGNER</h6>
 
-            <div class="marker">
-                <i class="fa fa-map-marker"></i>
-                <p>Shadman city phase 2</p>
+
+               <div style="margin-top: 7px;">
+
+                <div class="phone">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <h5>03118642980</h5>
+                </div>
+               
+                <div class="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <h5>email@test.com</h5>
+
+                </div>
+                <div class="globe">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <h5>www.portfolio.com</h5>
+
+                </div>
+
+               </div>
+
+              
             </div>
-            <div class="phone">
-                <i class="fa fa-phone"></i>
-                <p>03118654298</p>
-            </div>
-            <div class="globe">
-                <i class="fa fa-globe"></i>
-                <p>www.myPortfolio.com</p>
-            </div>
+
+            <!-- <hr> -->
         </div>
+
 
     </div>
 
 
-    <div class="card mt-5 mb-5" 
-        [ngStyle]="{
+    <div class="card mt-5 mb-5" [ngStyle]="{
             'background': cardStyleFr.background,
             'color': cardStyleFr.color,
             'width':cardStyleFr.width,
@@ -44,10 +58,11 @@
             'box-shadow':cardStyleFr.boxShadow,
             'font-family':cardStyleFr.fontFamily,
              'margin':cardStyleFr.Margin}">
-        <div class="card-body-two">
+        <div class="card-body-two row text-center">
             <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-            <h5 class="card-title">Ansar Ameer</h5>
-            
+            <h2 style="color: white;" class="col"><span class="comstyle">COM</span>PANY</h2>
+            <h5 style="color: white;line-height: 1.0;">GRAPHIC DESIGNER</h5>
+
         </div>
     </div>
 </div>
