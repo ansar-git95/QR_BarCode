@@ -7,6 +7,8 @@ import { NgxBarcodeModule } from 'ngx-barcode';
 import { BusinessCardTemplateModule } from './business-card-template/businesscardtemplate.module';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     NgxBarcodeModule,
     BusinessCardTemplateModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

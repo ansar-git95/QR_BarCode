@@ -3,10 +3,11 @@ import { UserListService } from '../user-list.service';
 @Component({
   selector: 'app-business-card-template',
   templateUrl: './business-card-template.component.html',
-  styleUrls: ['./business-card-template.component.css'],
+  styleUrls: ['./business-card-template.component.scss'],
 })
 export class BusinessCardTemplateComponent implements OnInit {
   // userDataList: any[] = [];
+  display=false
   textColor = '';
   backColor = '';
   // cardStyle = {
